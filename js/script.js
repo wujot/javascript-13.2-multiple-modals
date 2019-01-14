@@ -12,8 +12,6 @@
         document.querySelector('#modal-two').classList.remove('show');
         document.querySelector('#modal-three').classList.remove('show');
 
-    	console.log(event.currentTarget.getAttribute('href'));
-
         document.querySelector(event.currentTarget.getAttribute('href')).classList.add('show');
 
         document.querySelector('#modal-overlay').classList.add('show');
